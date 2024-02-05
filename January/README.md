@@ -1,18 +1,22 @@
-## Getting Started
+## Notes On Individual Problems
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Here are some more in depth descriptions on issues that I ran into on some of these problems and specific scores.
 
-## Folder Structure
+All of these solutions are fixed post contest, but I have explanations of where I went wrong originally.
 
-The workspace contains two folders by default, where:
+## THE PROBLEMS:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+> My personal take: I messed up pretty bad... I got the algorithms to most of these problems completely correct, but because of a mixture of not noticing a couple details in problems, I missed the pass
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+`Majority Opinion`
+- I didn't sort the output, but my algorithm is correct. So essentially, I missed the problem merely due to incorrect output formatting
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+`Cannonball`
+- For this problem, I also had the correct algorithm, but I did one thing wrong... the way I handled the case of "infinity bounce" was incorrect, as it didn't account for there being targets between the "0" pads
 
-## Dependency Management
+`Pesticides`
+- I didn't understand the sample case, so unfortunately I couldn't code it, but afterwards I have written a working solution though only for the first 10/15
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+
